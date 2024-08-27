@@ -1,0 +1,329 @@
+%------------------------
+% This is a LaTeX document for creating a resume
+% Author : Huy Dang Ba
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{lmodern}
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{vntex}
+\usepackage{tabularx}
+\usepackage{hyphenat}
+\usepackage{fontawesome}
+\input{glyphtounicode}
+
+
+%---------- FONT OPTIONS ----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeSubSubheading}[2]{
+    \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeEducationHeading}[6]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+
+\newcommand{\resumeProjectHeading}[2]{
+    \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeOrganizationHeading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textit{\small #2} \\
+      \textit{\small#3}
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%---------- HEADING ----------
+
+\begin{center}\
+    \textbf{\Huge Huy Dang Ba} \\ \vspace{3pt}
+    \small
+    \faCalendarCheckO \hspace{.5pt} {Mar 9th, 1999}
+    $|$
+    \faMobile \hspace{.5pt} \href{tel:0975894020}{+84 975894020}
+    $|$
+    \faAt \hspace{.5pt} \href{mailto:dangbahuy99@gmail.com}{dangbahuy99@gmail.com}
+    % $|$
+    $|$
+    \faMapMarker \hspace{.5pt} \href{https://maps.app.goo.gl/ib4DrGqJ4ShK5HVN7}{350 Kim Giang Street, Hoang Mai, Hanoi}
+
+    % \faLinkedinSquare \hspace{.5pt} \href{https://www.linkedin.com/in/huydb939}{LinkedIn}
+    % $|$
+    % \faGithub \hspace{.5pt} \href{https://github.com/huydb}{GitHub}
+    % $|$
+    % \faGlobe \hspace{.5pt} \href{https://huydb.github.io}{Portfolio}
+\end{center}
+
+
+
+%----------- EDUCATION -----------
+
+\section{Education}
+  \vspace{3pt}
+  \resumeSubHeadingListStart
+    \resumeEducationHeading
+      {University of Engineering and Technology - VNU
+      % \normalfont{(Admission rate: 0.09\%)}
+      }{Hanoi, Vietnam}
+      {B.Sc. in Information Technology; \textbf{GPA: 3.11/4.00}}{Sep 2017 -- Jan 2022}
+
+
+  \resumeSubHeadingListEnd
+
+
+
+%----------- SKILLS -----------
+
+\section{Skills}
+  \vspace{2pt}
+  \resumeSubHeadingListStart
+    \small{\item{
+      \textbf{Programming Languages:} C/C++, JavaScript, TypeScript, Go, Java, Python, SQL \\ \vspace{3pt}
+      \textbf{Frontend Technologies:} React, React Native, HTML, CSS \\ \vspace{3pt}
+      \textbf{Backend \& Frameworks:} Node.js, Spring Boot, Golang \\ \vspace{3pt}
+      \textbf{Databases \& Caching:} MySQL, PostgreSQL, MongoDB, Redis \\ \vspace{3pt}
+      \textbf{Message Queue:} RabbitMQ, Kafka \\ \vspace{3pt}
+      \textbf{DevOps \& Cloud:} Docker, Kubernetes, GCP, AWS, Terraform, Ansible \\ \vspace{3pt}
+      \textbf{Operating Systems:} Linux, Windows  \\ \vspace{3pt}
+      \textbf{Networking \& Security:} Switching, Routing, VPN, PfSense, FortiGate \\ \vspace{3pt}
+      \textbf{Monitoring \& Logging:} Grafana, Prometheus, ELK, EFK Stack \\ \vspace{3pt} 
+      \textbf{CI/CD \& Automation:} GitLab CI, ArgoCD, GitHub Actions, Jenkins, N8n, Airflow \\ \vspace{3pt}
+      \textbf{Virtualization:} Proxmox, OpenStack, VMware \\ \vspace{3pt}
+    }}
+  \resumeSubHeadingListEnd
+
+
+
+%----------- EXPERIENCE -----------
+
+\section{Experience}
+  \vspace{3pt}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Freelance Engineer}{Hanoi, Vietnam}
+      {Infrastructure Engineer \& Software Engineer}{June 2024 \textbf{--} Present, Freelance}
+        \resumeItemListStart
+            \resumeItem{Leading a team of three freelance engineers.}
+            \resumeItem{Providing consultation and designing network and server infrastructure solutions for a manufacturing enterprise (name withheld due to NDA). Configure network connections between the headquarters and branch factories, deploy wireless networks for production machines, and manage network security using the PfSense firewall. Built a virtualized server infrastructure using Proxmox for internal systems and software deployment.}
+            \resumeItem{Handling freelance projects in web development, mobile applications and DevOps.}
+        \resumeItemListEnd
+
+    \resumeSubheading
+      {PTF Vietnam - SeABank}{Hanoi, Vietnam}
+      {DevOps \& Software Engineer}{Jan 2022 \textbf{--} May 2024, Full-time}
+        \resumeItemListStart
+            \resumeItem{Established and led a 6-member software development and DevOps team, driving key engineering initiative.}
+            \resumeItem{Led the migration from manual deployments to a containerized infrastructure. Contributed to software development processes by optimized workflows and enhancement system reliability.}
+            \resumeItem{Managed the entire server infrastructure and Kubernetes clusters for software services on-premise and in GKE, implementing a hybrid cloud solution}
+            \resumeItem{Optimized Google Cloud service costs, achieving annual savings of \$50,000.}
+            \resumeItem{Involved in business analysis, system architecture design, and developing both internal and public systems.}
+            \resumeItem{Led troubleshooting and resolution of critical system incidents.}
+            \resumeItem{Conducted internal technical training for development and testing teams.}
+        \resumeItemListEnd
+
+    \resumeSubheading
+      {HMI Lab - Vietnam National University, Hanoi}{Hanoi, Vietnam}
+      {Software Engineer}{Sep 2021 -- Oct 2023, Remote}
+        \resumeItemListStart
+            \resumeItem{Consulting on software architecture design and solutions.}
+            \resumeItem{Managing software infrastructure and the application store.}
+            \resumeItem{Participating in the development of mobile and web applications for the digital museum project of the Museum of Cultures of Vietnam's Ethnic Groups.}
+        \resumeItemListEnd
+
+    \resumeSubheading
+      {ORGroup - ORLab}{Hanoi, Vietnam}
+      {Software Engineer}{Sep 2018 \textbf{--} Fed 2021, Hybrid}
+        \resumeItemListStart
+            \resumeItem{Researching mathematical informatics and operations research applied to real-life scenarios.}
+            \resumeItem{Leading a frontend development team.}
+            \resumeItem{Involved in the development of an admission and enrollment management project for Phenikaa University.}
+            \resumeItem{Engaging in a project for managing and scheduling work shifts for medical staff at Hanoi Medical University Hospital.}
+            \resumeItem{Contributing to a project optimizing advertising revenue for VTC Television.}
+            \resumeItem{Participating in the development of an optimization project for the duty schedule of the Lai Chau Hydropower Plant}
+        \resumeItemListEnd
+    
+  \resumeSubHeadingListEnd
+
+
+
+%----------- AWARDS & ACHIEVEMENTS -----------
+
+\section{Awards \& Achievements}
+  \vspace{2pt}
+  \resumeSubHeadingListStart
+    \small{\item{
+        \textbf{IT Member of the Year (2022)}{ Is an award that honors outstanding individuals in the IT Center of PTF Company (Jan 2023)} \\ \vspace{3pt}
+    }}
+  \resumeSubHeadingListEnd
+
+
+
+%----------- Outstanding PROJECTS -----------
+
+\section{Outstanding Projects }
+    \vspace{3pt}
+    \resumeSubHeadingListStart
+      
+      \resumeProjectHeading
+        {\textbf{Portal Sale (Integration Loan Origination System – LOS)}} {}
+          \resumeItemListStart
+            \resumeItem{One of the core systems of a financial company. It facilitates credit scoring for customers, loan creation, and loan management and offers APIs for seamless partner integration.}
+          \resumeItemListEnd
+      
+      \resumeProjectHeading
+        {\textbf{Payment Gateway (Integration T24 Core Banking System)}}{}
+          \resumeItemListStart
+            \resumeItem{Acts as a payment gateway intermediary, integrating collection partners such as MoMo, Viettel Money, Payoo, VNPT Money,... with the core payment system. It enables customers to conveniently make their monthly loan payments. Additionally, the system automates transaction reconciliation and generates comprehensive reports.}
+          \resumeItemListEnd
+      
+      \resumeProjectHeading
+        {\textbf{Network and System Reorganization Project for a Business}}{}
+          \resumeItemListStart
+            \resumeItem{Helped a non-tech manufacturing company implement IT solutions to improve monitoring, enhance management efficiency, and optimize processes and workforce utilization.}
+          \resumeItemListEnd
+      \resumeProjectHeading
+        {\textbf{O-HOS (Manage Hospital Staff and Schedule)}}{}
+          \resumeItemListStart
+            \resumeItem{Optimizes shift scheduling for medical staff, reducing workload and enhancing doctors' well-being. By optimizing shift scheduling, the system reduces staff fatigue, leading to better patient care and improved hospital efficiency.}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+
+
+% ----------- Language -----------
+
+\section{Language}
+  \vspace{2pt}
+  \resumeSubHeadingListStart
+    \small{\item{
+        \textbf{Vietnamese:}{ Native } \\ \vspace{3pt}
+        \textbf{English:}{ Intermediate (reading \& writing), Basic (speaking) }
+    }}
+  \resumeSubHeadingListEnd
+
+
+% ----------- Research interests & Desires -----------
+
+\section{Research interests \& Desires}
+  \vspace{3pt}
+  \resumeItemListStart
+    \resumeItem{Seeking opportunities for skill development and professional growth.}
+    \resumeItem{Aspire to collaborate with experienced professionals in a dynamic enterprise environment.}
+    \resumeItem{Applying OSS knowledge in production environments.}
+    \resumeItem{Seeking a flexible work schedule.}
+  \resumeItemListEnd
+
+% ----------- REFERENCES -----------
+
+\section{References}
+  \vspace{3pt}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Chuc Ngo Van}{CIO (Chief Information Officer) - PTF Vietnam}
+      {Email:\hspace{.5pt} \href{mailto:chuc.nv@ptf.com.vn}{chuc.nv@ptf.com.vn}}{}
+      
+  \resumeSubHeadingListEnd
+
+  
+
+%-------------------------------------------
+\end{document}
